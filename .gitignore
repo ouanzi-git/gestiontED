@@ -1,0 +1,30 @@
+# Environment variables
+.env
+backend/.env
+frontend/.env
+.env.local
+
+# Node.js
+node_modules/
+.next/
+out/
+build/
+dist/
+.pnpm-store/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+.env/
+
+# IDEs
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
