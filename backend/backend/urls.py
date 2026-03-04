@@ -16,7 +16,9 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from doc_api.views import upload_document
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('api/upload/', upload_document, name='api_upload_document'),
 ]
